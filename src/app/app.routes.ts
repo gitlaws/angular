@@ -5,7 +5,7 @@ import { ComponentDocumentationComponent } from "./views/component-documentation
 export const APP_ROUTES: Routes = [
   {
     path: "",
-    // component: ComponentDocumentationComponent,
+    component: ComponentDocumentationComponent,
   },
 
 ];
