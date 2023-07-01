@@ -21,6 +21,7 @@ import { CardComponent } from './components/card/card.component';
     RouterModule.forRoot(APP_ROUTES, {
       scrollPositionRestoration: "enabled",
       anchorScrolling: "enabled",
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
