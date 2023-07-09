@@ -7,6 +7,7 @@ import { ComponentDocumentationComponent } from './views/component-documentation
 import { TopOfPageComponent } from './components/top-of-page/top-of-page.component';
 import { TopnavComponent } from './components/topnav/topnav.component';
 import { CardComponent } from './components/card/card.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardComponent } from './components/card/card.component';
     ComponentDocumentationComponent,
     TopOfPageComponent,
     TopnavComponent,
-    CardComponent
+    CardComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
